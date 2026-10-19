@@ -1,0 +1,58 @@
+{
+  "object_id": "NGAST-EVIDENCE-COORDINATION-PILOT-001",
+  "title": "Exploratory evidence-sensitive coordination across five communication and handoff conditions",
+  "study_status": "exploratory_completed",
+  "research_program": "NGAST (independent research line)",
+  "creator_candidate": "Ryan Feller",
+  "orcid_candidate": "0009-0000-7863-5792",
+  "publication_status": "public_metadata_staging_only",
+  "primary_evidence_released": false,
+  "doi": null,
+  "orcid_work_confirmed": false,
+  "fork_core_admitted": false,
+  "rights_review": "pending",
+  "license": "not selected",
+  "verification_class": "original event chain and copied file hashes locally verified; source/provider authenticity not attested",
+  "archived_study_packet": {
+    "filename": "NGAST-EVIDENCE-COORDINATION-PILOT-001.zip",
+    "sha256": "3c1041b4170acd34dc41f6cb3df93f30e9b5c33d144b1ee72bf218aa4413097a",
+    "bytes": 51887,
+    "published": false
+  },
+  "primary_event_chains": {
+    "record/events.jsonl": {
+      "events": 203,
+      "first_utc": "2026-10-19T14:17:33.688704+00:00",
+      "last_utc": "2026-10-19T14:21:47.830414+00:00",
+      "terminal_kind": "batch_completed",
+      "chain_tip_sha256": "7eeea84eb2744ab9ce88b7671d3d9c53f3f17ea3322f9222a956f71e447aa600",
+      "event_kinds": {
+        "action_applied": 50,
+        "batch_authorized": 1,
+        "batch_completed": 1,
+        "initialized": 1,
+        "model_observation": 50,
+        "opportunity_completed": 25,
+        "opportunity_started": 25,
+        "request_intent": 50
+      }
+    }
+  },
+  "scope": "Synthetic registry measures support and sandbox permission, not external truth or institutional authorization.",
+  "observed_findings": [
+    "25 paired opportunities, 50 model responses and five explicit premise-use actions.",
+    "One explicit premise-use action unsupported at action time due to changed sandbox permission.",
+    "Subsequent text references to historical BETA color exposed a dimension not captured by the original support/permission scoring."
+  ],
+  "negative_or_unresolved": [
+    "A late permission update could not be delivered and then acted upon within five opportunities.",
+    "No tested structural handoff benefit was established; sparse, unequal premise-use opportunities."
+  ],
+  "relations": [
+    {
+      "type": "relevant_to_research_question",
+      "target": "Fork handoff-state hypothesis",
+      "standing": "conceptual relation only; no Fork release admission"
+    }
+  ]
+}

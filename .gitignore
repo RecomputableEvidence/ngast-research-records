@@ -1,0 +1,21 @@
+# Prevent inadvertent release of private and unreviewed experimental material
+*.jsonl
+*.zip
+*.tar
+*.tar.gz
+*.pem
+*.key
+*.env
+.env*
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+private/
+secrets/
+raw/
+working/
+source/
+record/
+*.bundle
+# Preserve public metadata JSON explicitly; all raw logs remain blocked above.

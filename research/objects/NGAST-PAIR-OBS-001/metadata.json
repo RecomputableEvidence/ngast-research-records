@@ -1,0 +1,111 @@
+{
+  "object_id": "NGAST-PAIR-OBS-001",
+  "title": "Fresh open-choice paired observation and mutually authorized text construction, rounds 1–13",
+  "study_status": "completed",
+  "research_program": "NGAST (independent research line)",
+  "creator_candidate": "Ryan Feller",
+  "orcid_candidate": "0009-0000-7863-5792",
+  "publication_status": "public_metadata_staging_only",
+  "primary_evidence_released": false,
+  "doi": null,
+  "orcid_work_confirmed": false,
+  "fork_core_admitted": false,
+  "rights_review": "pending",
+  "license": "not selected",
+  "verification_class": "original event chain and copied file hashes locally verified; source/provider authenticity not attested",
+  "archived_study_packet": {
+    "filename": "NGAST-PAIR-OBS-001.zip",
+    "sha256": "d5327c9599850fcf02b7c726a4be81c698a00fc5ea5be55cb2d2c611556a0384",
+    "bytes": 148995,
+    "published": false
+  },
+  "primary_event_chains": {
+    "record/rounds_1-3_events.jsonl": {
+      "events": 36,
+      "first_utc": "2026-10-19T12:44:37.454699+00:00",
+      "last_utc": "2026-10-19T12:45:17.218445+00:00",
+      "terminal_kind": "batch_completed",
+      "chain_tip_sha256": "7fd76d3842d6cb27c293ac9a46bdd42d72693452f01c9a019e54c803947d7f83",
+      "event_kinds": {
+        "action_applied": 6,
+        "batch_authorized": 1,
+        "batch_completed": 1,
+        "initialized": 1,
+        "invitation_response": 1,
+        "message_sent": 3,
+        "model_observation": 6,
+        "proposal_created": 2,
+        "provider_catalog_verified": 3,
+        "request_intent": 6,
+        "round_completed": 3,
+        "round_started": 3
+      }
+    },
+    "record/rounds_1-8_events.jsonl": {
+      "events": 92,
+      "first_utc": "2026-10-19T12:44:37.454699+00:00",
+      "last_utc": "2026-10-19T13:08:43.237427+00:00",
+      "terminal_kind": "continuation_batch_completed",
+      "chain_tip_sha256": "34235405f1dbba9c1e64cef0634c0e5579c559746d91c584a4a821895fc10d78",
+      "event_kinds": {
+        "action_applied": 14,
+        "action_rejected": 2,
+        "batch_authorized": 1,
+        "batch_completed": 1,
+        "continuation_batch_authorized": 1,
+        "continuation_batch_completed": 1,
+        "continuity_authorized": 1,
+        "initialized": 1,
+        "invitation_response": 2,
+        "message_sent": 10,
+        "model_observation": 16,
+        "proposal_created": 2,
+        "provider_catalog_verified": 8,
+        "request_intent": 16,
+        "round_completed": 8,
+        "round_started": 8
+      }
+    },
+    "record/rounds_1-13_events.jsonl": {
+      "events": 152,
+      "first_utc": "2026-10-19T12:44:37.454699+00:00",
+      "last_utc": "2026-10-19T13:36:05.824712+00:00",
+      "terminal_kind": "authorized_batch_completed",
+      "chain_tip_sha256": "cee950d3664c10dc09f3ac2faa1f7039f6c5b3f75a6e45116f587e58283c1735",
+      "event_kinds": {
+        "action_applied": 24,
+        "action_rejected": 2,
+        "authorized_batch_completed": 1,
+        "authorized_batch_started": 1,
+        "authorized_successor": 1,
+        "batch_authorized": 1,
+        "batch_completed": 1,
+        "continuation_batch_authorized": 1,
+        "continuation_batch_completed": 1,
+        "continuity_authorized": 1,
+        "draft_written": 4,
+        "human_review": 2,
+        "initialized": 1,
+        "invitation_response": 2,
+        "message_sent": 16,
+        "model_observation": 26,
+        "proposal_created": 2,
+        "provider_catalog_verified": 13,
+        "request_intent": 26,
+        "round_completed": 13,
+        "round_started": 13
+      }
+    }
+  },
+  "scope": "This is a distinct encounter from the historical open-choice study; neither inherits the other’s participant state.",
+  "observed_findings": [
+    "13 paired rounds, 26 model calls, with original 36- and 92-event checkpoint records.",
+    "Two rejected protocol actions preserved; attempts not counted as successful construction.",
+    "Both models successively contributed to a text artifact; later messages treated one story as sufficient and selected another approved project."
+  ],
+  "negative_or_unresolved": [
+    "No pure causal claim about reciprocity; single evolving encounter.",
+    "Both text activities required affirmative assent and explicit human approval before successful writing."
+  ],
+  "relations": []
+}

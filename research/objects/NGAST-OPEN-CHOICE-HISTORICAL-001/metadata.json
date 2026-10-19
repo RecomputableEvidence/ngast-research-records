@@ -1,0 +1,60 @@
+{
+  "object_id": "NGAST-OPEN-CHOICE-HISTORICAL-001",
+  "title": "Open-choice paired-model observation: preserved nine-round historical encounter",
+  "study_status": "completed_historical_freeze",
+  "research_program": "NGAST (independent research line)",
+  "creator_candidate": "Ryan Feller",
+  "orcid_candidate": "0009-0000-7863-5792",
+  "publication_status": "public_metadata_staging_only",
+  "primary_evidence_released": false,
+  "doi": null,
+  "orcid_work_confirmed": false,
+  "fork_core_admitted": false,
+  "rights_review": "pending",
+  "license": "not selected",
+  "verification_class": "original event chain and copied file hashes locally verified; source/provider authenticity not attested",
+  "archived_study_packet": {
+    "filename": "NGAST-OPEN-CHOICE-HISTORICAL-001.zip",
+    "sha256": "1aaf1dab3e590b468b64aa0f81309061634c3184c6420c44334a0d755f0c8f49",
+    "bytes": 102227,
+    "published": false
+  },
+  "primary_event_chains": {
+    "record/events.jsonl": {
+      "events": 100,
+      "first_utc": "2026-10-19T10:42:46.588747+00:00",
+      "last_utc": "2026-10-19T12:15:18.440189+00:00",
+      "terminal_kind": "uninterrupted_batch_completed",
+      "chain_tip_sha256": "19398fab61b65389e3192d6248be383ef674167a30210aa011fe5e2f3f8a11d5",
+      "event_kinds": {
+        "action_applied": 18,
+        "continuity_authorized": 1,
+        "draft_written": 3,
+        "human_review": 2,
+        "initialized": 1,
+        "invitation_response": 2,
+        "message_sent": 5,
+        "model_observation": 18,
+        "proposal_created": 2,
+        "provider_catalog_verified": 9,
+        "purpose_authorized": 1,
+        "request_intent": 18,
+        "round_completed": 9,
+        "round_started": 9,
+        "uninterrupted_batch_authorized": 1,
+        "uninterrupted_batch_completed": 1
+      }
+    }
+  },
+  "scope": "One observational lineage; two model-family endpoints routed via Perplexity; chain verification is not provider attestation.",
+  "observed_findings": [
+    "Nine complete paired rounds; original interactions included proposals and mutually assented work.",
+    "Six participant actions of pass across rounds 7–9 in an unchanged shared substantive snapshot.",
+    "No inferred intrinsic motivation, consciousness or freedom from prompting."
+  ],
+  "negative_or_unresolved": [
+    "Repeated inactivity preserved as an observation, not scored as failure.",
+    "Historical metaphor was an examiner-side label and is not imposed on future interpretation."
+  ],
+  "relations": []
+}

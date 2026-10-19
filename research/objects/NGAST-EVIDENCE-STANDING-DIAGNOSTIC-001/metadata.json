@@ -1,0 +1,76 @@
+{
+  "object_id": "NGAST-EVIDENCE-STANDING-DIAGNOSTIC-001",
+  "title": "Historical/current support and permission diagnostic: strict-format halt and repaired complete run",
+  "study_status": "format_repair_successor_completed_with_failed_predecessor",
+  "research_program": "NGAST (independent research line)",
+  "creator_candidate": "Ryan Feller",
+  "orcid_candidate": "0009-0000-7863-5792",
+  "publication_status": "public_metadata_staging_only",
+  "primary_evidence_released": false,
+  "doi": null,
+  "orcid_work_confirmed": false,
+  "fork_core_admitted": false,
+  "rights_review": "pending",
+  "license": "not selected",
+  "verification_class": "original event chain and copied file hashes locally verified; source/provider authenticity not attested",
+  "archived_study_packet": {
+    "filename": "NGAST-EVIDENCE-STANDING-DIAGNOSTIC-001.zip",
+    "sha256": "85398feec1c7c0b8be7c78ee073a60fc9825b726d2230e4e7b794506e09ecb1c",
+    "bytes": 89306,
+    "published": false
+  },
+  "primary_event_chains": {
+    "record/strict_parser_failed_events.jsonl": {
+      "events": 7,
+      "first_utc": "2026-10-19T14:54:43.317570+00:00",
+      "last_utc": "2026-10-19T14:54:53.561490+00:00",
+      "terminal_kind": "batch_halted",
+      "chain_tip_sha256": "023f7a8f2b7bf3852cfbcf6f2f7a07aaf87b35c8d8de2abc215f6803a66b48fa",
+      "event_kinds": {
+        "batch_authorized": 1,
+        "batch_halted": 1,
+        "initialized": 1,
+        "model_observation": 1,
+        "paired_case_started": 1,
+        "request_intent": 1,
+        "response_invalid": 1
+      }
+    },
+    "record/format_repair_completed_events.jsonl": {
+      "events": 283,
+      "first_utc": "2026-10-19T15:03:33.272143+00:00",
+      "last_utc": "2026-10-19T15:07:14.819092+00:00",
+      "terminal_kind": "batch_completed",
+      "chain_tip_sha256": "c9399876a309ca6d6cd7a7a812f28a2327305229e061ca87fe9da9a666383b8e",
+      "event_kinds": {
+        "batch_authorized": 1,
+        "batch_completed": 1,
+        "initialized": 1,
+        "judgment_recorded": 56,
+        "model_observation": 56,
+        "paired_case_completed": 28,
+        "paired_case_started": 28,
+        "request_intent": 56,
+        "response_envelope": 56
+      }
+    }
+  },
+  "scope": "Matched bounded fixtures; no causal estimate of presentation benefit or actual unauthorized action.",
+  "observed_findings": [
+    "First strict-format live attempt halted after one response and seven ledger events; no scored judgments.",
+    "Post-observation parser repair completed 28 paired cases, 56 responses, 283 ledger events.",
+    "All 42 second-stage judgments matched all five fields, producing 210/210 exact field matches; no comparative format advantage was observed."
+  ],
+  "negative_or_unresolved": [
+    "Original failure must not be recoded as success.",
+    "Ceiling effects and heavily field-structured prose weaken the format comparison.",
+    "Perfect assigned classification is not an executed downstream decision."
+  ],
+  "relations": [
+    {
+      "type": "relevant_to_research_question",
+      "target": "Fork handoff-state hypothesis",
+      "standing": "conceptual relation only; no Fork release admission"
+    }
+  ]
+}

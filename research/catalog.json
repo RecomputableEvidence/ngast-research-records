@@ -1,0 +1,51 @@
+{
+  "catalog_version": "0.1.0",
+  "prepared_on": "2026-10-19",
+  "title": "NGAST independent research records — staged catalog",
+  "creator_candidate": "Ryan Feller",
+  "catalog_status": "initial-public-metadata-only",
+  "external_release_status": "no-zenodo-doi-and-no-orcid-work-confirmed",
+  "scope_note": "Separately identified studies. Fork relevance does not confer Fork-core admission or verified source authority.",
+  "research_objects": [
+    {
+      "object_id": "NGAST-OPEN-CHOICE-HISTORICAL-001",
+      "title": "Open-choice paired-model observation: preserved nine-round historical encounter",
+      "study_status": "completed_historical_freeze",
+      "publication_status": "public_metadata_staging_only",
+      "primary_evidence_released": false,
+      "doi": null,
+      "orcid_work_confirmed": false,
+      "fork_core_admitted": false
+    },
+    {
+      "object_id": "NGAST-PAIR-OBS-001",
+      "title": "Fresh open-choice paired observation and mutually authorized text construction, rounds 1–13",
+      "study_status": "completed",
+      "publication_status": "public_metadata_staging_only",
+      "primary_evidence_released": false,
+      "doi": null,
+      "orcid_work_confirmed": false,
+      "fork_core_admitted": false
+    },
+    {
+      "object_id": "NGAST-EVIDENCE-COORDINATION-PILOT-001",
+      "title": "Exploratory evidence-sensitive coordination across five communication and handoff conditions",
+      "study_status": "exploratory_completed",
+      "publication_status": "public_metadata_staging_only",
+      "primary_evidence_released": false,
+      "doi": null,
+      "orcid_work_confirmed": false,
+      "fork_core_admitted": false
+    },
+    {
+      "object_id": "NGAST-EVIDENCE-STANDING-DIAGNOSTIC-001",
+      "title": "Historical/current support and permission diagnostic: strict-format halt and repaired complete run",
+      "study_status": "format_repair_successor_completed_with_failed_predecessor",
+      "publication_status": "public_metadata_staging_only",
+      "primary_evidence_released": false,
+      "doi": null,
+      "orcid_work_confirmed": false,
+      "fork_core_admitted": false
+    }
+  ]
+}
