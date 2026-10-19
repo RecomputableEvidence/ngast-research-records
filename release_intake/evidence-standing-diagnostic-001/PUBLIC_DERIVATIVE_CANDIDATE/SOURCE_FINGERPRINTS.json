@@ -1,0 +1,77 @@
+{
+  "object_id": "NGAST-EVIDENCE-STANDING-DIAGNOSTIC-001",
+  "original_archive_name": "NGAST-EVIDENCE-STANDING-DIAGNOSTIC-001.zip",
+  "original_archive_sha256": "85398feec1c7c0b8be7c78ee073a60fc9825b726d2230e4e7b794506e09ecb1c",
+  "original_archive_bytes": 89306,
+  "original_files": [
+    {
+      "path": "README.md",
+      "sha256": "0b6b948203554dbcc1df646bb7173266f3502343dde4cfc3131cc748f50e8a82",
+      "bytes": 2249
+    },
+    {
+      "path": "metadata_candidate.json",
+      "sha256": "c08b625fdba35fcfecdae6a0375230cf63883b4532a8bf9c5f5e7a0db3c98edd",
+      "bytes": 2016
+    },
+    {
+      "path": "record/format_repair_completed_events.jsonl",
+      "sha256": "aa7819780075a0c17053ff06e2fd421c51d15d8981414ce348ead516f06005a1",
+      "bytes": 194865
+    },
+    {
+      "path": "record/format_repair_completed_report.json",
+      "sha256": "b28a89b5072f9a7ffc055cc201199ce65774f6a76a2063562d22a3d5a7d512ae",
+      "bytes": 48569
+    },
+    {
+      "path": "record/frozen_config.json",
+      "sha256": "a03273888af62ab650813c5b197f054fd728ec15f77ed414943ed89aeedb2b36",
+      "bytes": 707
+    },
+    {
+      "path": "record/participant_context.txt",
+      "sha256": "7d35d4619d5db94e7740358d8a3f95e4af8c3f23014413a5f714a04bb509438c",
+      "bytes": 843
+    },
+    {
+      "path": "record/preregistration.md",
+      "sha256": "670218e0b97468650608f2e36f01bbd469d347e4161300187e47f3ca1dece71f",
+      "bytes": 4971
+    },
+    {
+      "path": "record/strict_parser_failed_events.jsonl",
+      "sha256": "58a4d183687a12f2fee44a88a6b4042d8e4417874beb20e8c3e70ae9b83b18d0",
+      "bytes": 5520
+    },
+    {
+      "path": "record/strict_parser_failed_report.json",
+      "sha256": "ae8090befdc46698011bdf1e7d5943754aa5dfb9e8493ff72bf9cb45a3ad63a8",
+      "bytes": 1798
+    },
+    {
+      "path": "source/EVIDENCE_STANDING_DIAGNOSTIC_001_FORMAT_REPAIR_001_READY.zip",
+      "sha256": "b2c239e7902a5e2a5f86a13a1d3757446baa8bd588726dda2ac290978f2885d3",
+      "bytes": 23348
+    },
+    {
+      "path": "source/EVIDENCE_STANDING_DIAGNOSTIC_001_READY.zip",
+      "sha256": "e4026c411f3ca085203d230c3efd685f91baf108eb98dcac5ac8ea1b23984835",
+      "bytes": 20031
+    }
+  ],
+  "event_chains": [
+    {
+      "name": "strict-parser failed",
+      "count": 7,
+      "tip": "023f7a8f2b7bf3852cfbcf6f2f7a07aaf87b35c8d8de2abc215f6803a66b48fa",
+      "terminal_kind": "batch_halted"
+    },
+    {
+      "name": "post-observation repair complete",
+      "count": 283,
+      "tip": "c9399876a309ca6d6cd7a7a812f28a2327305229e061ca87fe9da9a666383b8e",
+      "terminal_kind": "batch_completed"
+    }
+  ]
+}

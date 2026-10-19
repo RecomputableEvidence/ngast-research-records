@@ -1,0 +1,34 @@
+{
+  "FORMAT_REPAIR_001.md": {
+    "sha256": "71da0498c439a7239a9a788c9cf4c6c3c7c9fbfa79211387228680698e2700f7",
+    "bytes": 2612
+  },
+  "LICENSE_AND_DISTRIBUTION.md": {
+    "sha256": "d7e272ef2dd204fa8b1196e9c1d9a662e7518496f29d811349d3686e82a2d726",
+    "bytes": 2927
+  },
+  "PREREGISTRATION.md": {
+    "sha256": "670218e0b97468650608f2e36f01bbd469d347e4161300187e47f3ca1dece71f",
+    "bytes": 4971
+  },
+  "README.md": {
+    "sha256": "5cf7833496cf1fdf51f8b2812e07a3815680187ce8a2a03ad1568faf535ba32c",
+    "bytes": 3327
+  },
+  "SHA256SUMS.txt": {
+    "sha256": "e7761b8ae72c1d75c4f935bd5912f059d9da5edb131ad1b8d4fec01a32e2f5a8",
+    "bytes": 619
+  },
+  "SOURCE_FINGERPRINTS.json": {
+    "sha256": "6cde32de9200539f93d655e8b8a862b3384b9722b2b376e283dbd82f8dc95424",
+    "bytes": 2588
+  },
+  "VERIFICATION_SUMMARY.json": {
+    "sha256": "1d798f9aa0f9599f3bbc313dbbaeaf8e9ecf3f495b6f5846ab570d2f3ab90ed4",
+    "bytes": 1940
+  },
+  "verify_public_derivative.py": {
+    "sha256": "8da12917fd88566e7dd9defe29b766e4c66ae38160c59bc605597ca23ca5ce05",
+    "bytes": 688
+  }
+}

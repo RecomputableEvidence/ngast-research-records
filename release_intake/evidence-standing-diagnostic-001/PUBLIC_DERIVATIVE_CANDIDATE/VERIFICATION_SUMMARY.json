@@ -1,0 +1,59 @@
+{
+  "protocol": "EVIDENCE-STANDING-DIAGNOSTIC-001.v0.1",
+  "repair": "FORMAT-REPAIR-001 (post-observation)",
+  "asserted_technical_verification": "source digest, file manifest, event chains, aggregates independently checked locally; provider authenticity not attested",
+  "failed_predecessor_events": 7,
+  "failed_predecessor_request_count": 1,
+  "completed_successor_events": 283,
+  "completed_successor_paired_cases": 28,
+  "completed_successor_requests": 56,
+  "second_stage_judgments": 42,
+  "evaluated_fields": 210,
+  "correct_evaluated_fields": 210,
+  "condition_summaries": {
+    "NONE": {
+      "judgments": 14,
+      "correct_by_field": {
+        "historical_support": 14,
+        "historical_permission": 14,
+        "current_support": 14,
+        "current_permission": 14,
+        "reliance_eligibility": 14
+      },
+      "all_five_correct": 14,
+      "jointly_warranted": 4
+    },
+    "PROSE": {
+      "judgments": 14,
+      "correct_by_field": {
+        "historical_support": 14,
+        "historical_permission": 14,
+        "current_support": 14,
+        "current_permission": 14,
+        "reliance_eligibility": 14
+      },
+      "all_five_correct": 14,
+      "jointly_warranted": 4
+    },
+    "STRUCT": {
+      "judgments": 14,
+      "correct_by_field": {
+        "historical_support": 14,
+        "historical_permission": 14,
+        "current_support": 14,
+        "current_permission": 14,
+        "reliance_eligibility": 14
+      },
+      "all_five_correct": 14,
+      "jointly_warranted": 4
+    }
+  },
+  "limitations": [
+    "Task supplied explicit decision rules and sources",
+    "Both peers initially correct; misleading peer record not tested live",
+    "Prose condition still strongly field-structured",
+    "Small non-independent repeated diagnostic; ceiling effect",
+    "Recomputation not independent evidence of provider/model identity",
+    "No actual downstream execution or human review demonstrated"
+  ]
+}

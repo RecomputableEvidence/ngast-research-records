@@ -1,0 +1,18 @@
+{
+  "title": "Evidence Standing Diagnostic 001: Historical and Current Support, Permission, and a Post-Observation Parser Repair",
+  "resource_type": "dataset (proposal; confirm archive composition before deposit)",
+  "publication_date": null,
+  "creators": [
+    {
+      "name": "Feller, Ryan",
+      "orcid": "0009-0000-7863-5792",
+      "standing": "candidate, researcher confirmation required"
+    }
+  ],
+  "description": "An assigned two-model synthetic evidence-standing diagnostic, preserving an initial seven-event strict-parser failure and separately executed post-observation format-repaired completion (283 ledger events, 42 second-stage judgments, 210/210 bounded classification fields). No structured-format advantage observed; ceiling effects and comparator limitations explicitly preserved. No actual authorization or causal benefit inferred.",
+  "related_repository": "https://github.com/RecomputableEvidence/ngast-research-records",
+  "doi": null,
+  "license": null,
+  "rights_status": "HOLD",
+  "files_for_publication": []
+}
