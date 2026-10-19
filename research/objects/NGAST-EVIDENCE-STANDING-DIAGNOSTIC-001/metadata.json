@@ -8,7 +8,7 @@
   "publication_status": "published_documentation_only_primary_evidence_restricted",
   "primary_evidence_released": false,
   "doi": "10.5281/zenodo.23480962",
-  "orcid_work_confirmed": false,
+  "orcid_work_confirmed": true,
   "fork_core_admitted": false,
   "rights_review": "scope_limited_documentation_distribution_authorized; original_source_rights_not_cleared",
   "license": "CC-BY-4.0 for published documentation; source and original model outputs not licensed for redistribution",
@@ -93,7 +93,21 @@
     "license": "CC-BY-4.0",
     "files_scope": "nine documentation, license, preregistration, aggregate and fingerprint files inside one ZIP; no raw events/model responses/executables",
     "original_source_archive_published": false,
-    "orcid_work_confirmed": false,
+    "orcid_work_confirmed": true,
     "fork_core_admitted": false
+  },
+  "orcid_work": {
+    "profile_url": "https://orcid.org/0009-0000-7863-5792",
+    "orcid_id": "0009-0000-7863-5792",
+    "work_title": "Evidence Standing Diagnostic 001: Historical and Current Standing in a Synthetic Two-Model Test (Documentation-Only Research Report)",
+    "work_type_shown": "Report",
+    "publication_date_shown": "2026-10-19",
+    "doi_shown": "10.5281/zenodo.23480962",
+    "contributor_shown": "Ryan Feller",
+    "public_profile_access_observed_in_owner_screenshot": true,
+    "independent_orcid_api_fetch": "not_completed",
+    "identifier_relationship_self": "not_explicitly_shown_in_screenshot",
+    "observed_at_date": "2026-10-19",
+    "observation_source": "owner-provided screenshot of ORCID public page (sign-in/register shown; Featured works included diagnostic); no direct assistant ORCID fetch"
   }
 }

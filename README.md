@@ -32,7 +32,7 @@ Run `python scripts/verify_catalog.py` (Python 3 standard library). This checks 
 ## Status and non-claims
 
 - One version-specific Zenodo DOI is displayed for the [published documentation-only report](https://doi.org/10.5281/zenodo.23480962). Publication and public accessibility are supported by an owner-supplied unauthenticated browser screenshot. Independent resolver verification and downloaded-file hash comparison remain open.
-- No ORCID Work is confirmed; publication of this repository does not create one.
+- One ORCID Work is visibly listed on the creator’s public profile for the documentation-only diagnostic DOI. This is supported by an owner-provided unsigned-in-browser screenshot; independent ORCID API retrieval is not established. The three other NGAST studies have no ORCID Works confirmed here.
 - No Fork-core research release or admission is implied.
 - The 100-event historical encounter is **not** a predecessor participant-state record of the 152-event fresh PAIR-OBS lineage.
 - This catalog does not establish free will, consciousness, real-world truth, generalized model tendencies, or a beneficial effect of structured handoffs.
