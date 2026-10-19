@@ -1,0 +1,62 @@
+{
+  "draft_state": "OFFLINE_PREPARED_NOT_CREATED_IN_ZENODO",
+  "resource_type": {
+    "type": "publication",
+    "subtype": "report",
+    "ui_label": "Publication → Report"
+  },
+  "title": "Evidence Standing Diagnostic 001: Historical and Current Standing in a Synthetic Two-Model Test (Documentation-Only Research Report)",
+  "creators": [
+    {
+      "person_or_org": "person",
+      "family_name": "Feller",
+      "given_name": "Ryan",
+      "orcid": "0009-0000-7863-5792",
+      "orcid_checksum": "VALID",
+      "authenticated_account_link": "NOT_CHECKED",
+      "affiliation": "Not specified"
+    }
+  ],
+  "description": "Documentation-only account of an assigned two-model synthetic-registry diagnostic examining whether historical factual support, current factual support and current sandbox permission are distinguished across no-peer-handoff, prose-handoff and structured-handoff presentations. An initial strict-parser run halted on a Markdown-fenced JSON response after 7 hash-linked events, with 0 completed paired cases. A separately documented, post-observation ingestion repair was followed by a 283-event run completing 28 paired cases and 56 model responses. Across 42 second-stage judgments, 210 of 210 predefined synthetic fields matched the reference. No advantage for structured handoff presentation was observed; all conditions reached the measurement ceiling. The task supplied explicit rules and current evidence; prose was itself field-structured and actual downstream execution was not tested. This release is a derivative documentation report and aggregate account only; it EXCLUDES original response transcripts, event ledgers, provider response IDs and runner software. Fingerprints of the restricted originals are included, but primary event chains CANNOT be independently recomputed from this public subset. Neither Fork-core validation, external truth, nor real-world authority is implied.",
+  "publication_date": "SET_TO_ACTUAL_PUBLICATION_DATE_ON_RELEASE",
+  "research_date": "2026-10-19",
+  "version": "0.3-doc-only",
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "keywords": [
+    "NGAST",
+    "artificial intelligence",
+    "large language models",
+    "synthetic evaluation",
+    "historical evidence",
+    "current support",
+    "temporal provenance",
+    "sandbox authorization",
+    "negative results",
+    "evidence handoff",
+    "reproducibility boundaries"
+  ],
+  "related_link": "https://github.com/RecomputableEvidence/ngast-research-records",
+  "doi": null,
+  "zenodo_record_id": null,
+  "zenodo_record_url": null,
+  "visibility_after_publication": "public documentation files only",
+  "full_source_evidence_visibility": "not uploaded",
+  "publisher": "Zenodo (after actual publication)",
+  "funding": "None declared; omit this field",
+  "rights_boundary": "CC BY 4.0 only researcher-controlled docs and aggregates; MIT eligible software omitted; raw outputs restricted",
+  "uploaded_files": [
+    "UPLOAD_ONLY/DERIVATIVE_CHANGELOG.md",
+    "UPLOAD_ONLY/FORMAT_REPAIR_001.md",
+    "UPLOAD_ONLY/LICENSE_AND_DISTRIBUTION.md",
+    "UPLOAD_ONLY/PREREGISTRATION.md",
+    "UPLOAD_ONLY/README.md",
+    "UPLOAD_ONLY/REPRODUCIBILITY_AND_SCOPE.md",
+    "UPLOAD_ONLY/SHA256SUMS.txt",
+    "UPLOAD_ONLY/SOURCE_FINGERPRINTS.json",
+    "UPLOAD_ONLY/VERIFICATION_SUMMARY.json"
+  ],
+  "rights_creator_status": "User/owner approval supplied for licensing; authenticated Zenodo and ORCID creator association not confirmed",
+  "duplicate_check_status": "Preliminary public title/object-ID searches no exact match; cannot inspect account drafts or guarantee no existing DOI",
+  "external_publish_authorized": false
+}
