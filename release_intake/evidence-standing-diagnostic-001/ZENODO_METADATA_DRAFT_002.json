@@ -1,0 +1,33 @@
+{
+  "title": "Evidence Standing Diagnostic 001 — documentary research record (draft)",
+  "object_id": "NGAST-EVIDENCE-STANDING-DIAGNOSTIC-001",
+  "resource_type_candidate": "publication/report",
+  "status": "documentation-only draft review; NOT Zenodo deposited or DOI registered",
+  "creators_candidate": [
+    {
+      "name": "Feller, Ryan",
+      "orcid": "0009-0000-7863-5792",
+      "standing": "pending authenticated metadata confirmation"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "software_license_selected": "MIT; eligible original authored source only; not present in derivative",
+  "description": "Bounded assigned two-model synthetic standing diagnostic. The first live run halted after 7 internally verified events; a distinct post-observation response-format repair enabled a 283-event completed run with 42 scored second-stage judgments and 210/210 exact matches. No observed advantage for structured handoff; ceiling and comparator limits preserved. Original raw transcripts and model/provider IDs not publicly deposited.",
+  "doi": null,
+  "record_url": null,
+  "files_for_publication": [],
+  "candidate_derivative_files": [
+    "FORMAT_REPAIR_001.md",
+    "LICENSE_AND_DISTRIBUTION.md",
+    "PREREGISTRATION.md",
+    "README.md",
+    "SHA256SUMS.txt",
+    "SOURCE_FINGERPRINTS.json",
+    "VERIFICATION_SUMMARY.json",
+    "verify_public_derivative.py"
+  ],
+  "data_release": "WITHHELD",
+  "model_output_rights": "not resolved; no model raw output released",
+  "parent_repository": "https://github.com/RecomputableEvidence/ngast-research-records",
+  "external_publication_authorized": false
+}
