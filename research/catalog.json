@@ -1,10 +1,10 @@
 {
-  "catalog_version": "0.1.0",
+  "catalog_version": "0.2.0",
   "prepared_on": "2026-10-19",
   "title": "NGAST independent research records — staged catalog",
   "creator_candidate": "Ryan Feller",
-  "catalog_status": "initial-public-metadata-only",
-  "external_release_status": "no-zenodo-doi-and-no-orcid-work-confirmed",
+  "catalog_status": "one-documentary-release-published-primary-evidence-restricted",
+  "external_release_status": "one-zenodo-documentation-only-report-shown-public; no-orcid-work-confirmed; independent-download-verification-pending",
   "scope_note": "Separately identified studies. Fork relevance does not confer Fork-core admission or verified source authority.",
   "research_objects": [
     {
@@ -41,11 +41,13 @@
       "object_id": "NGAST-EVIDENCE-STANDING-DIAGNOSTIC-001",
       "title": "Historical/current support and permission diagnostic: strict-format halt and repaired complete run",
       "study_status": "format_repair_successor_completed_with_failed_predecessor",
-      "publication_status": "public_metadata_staging_only",
+      "publication_status": "published_documentation_only_primary_evidence_restricted",
       "primary_evidence_released": false,
-      "doi": null,
+      "doi": "10.5281/zenodo.23480962",
       "orcid_work_confirmed": false,
-      "fork_core_admitted": false
+      "fork_core_admitted": false,
+      "documentary_release_version": "0.3-doc-only",
+      "publication_evidence": "unauthenticated public-record screenshot; no independent DOI resolver or deposited ZIP fetch"
     }
   ]
 }

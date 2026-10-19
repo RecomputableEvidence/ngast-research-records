@@ -5,3 +5,7 @@ The original 2026-10-19 submission candidate passed a bounded internal hash/chai
 Accordingly **no unreviewed original source ZIP, raw response log, private user path, third-party content, provider response ID or participant transcript is distributed in the initial public commit**. Original evidence must not be silently modified to make it publishable. A later public derivative must be separately named, rehashed, and cross-referenced without implying byte-identity to the preserved original.
 
 Before releasing complete study material, confirm author/contributor metadata, sharing rights for model-generated text, code and provider service terms, third-party text inclusion, software/data/document licenses, and any necessary redaction. Attribution candidate names are not a rights adjudication. No license has been selected or inferred from any other NGAST or Fork artifact.
+
+## 2026-10-19 scope-limited documentary release
+
+The owner explicitly authorized publication of the separate `NGAST-EVIDENCE-STANDING-DIAGNOSTIC-001` derivative `0.3-doc-only` under CC BY 4.0. The public Zenodo report displays DOI `10.5281/zenodo.23480962`. It contains no original event logs, model output transcripts, provider response IDs or runner executables. The original evidence and related rights questions remain restricted and unresolved, and MIT software-license selection does not imply that any original runner source has been distributed. The public report cannot independently reproduce raw event-chain verification.

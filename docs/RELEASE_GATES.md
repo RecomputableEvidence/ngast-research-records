@@ -1,6 +1,6 @@
 # Object-specific release gates
 
-Publication status for all four research objects is **metadata_staging_only**. Passing the following checks must be recorded per object before issuing or associating a DOI:
+Three research objects remain **metadata staging only**. A fourth, `NGAST-EVIDENCE-STANDING-DIAGNOSTIC-001`, has a **separately published documentation-only derivative**, with originals restricted and postpublication file-download verification pending. The following gates apply to each exact release object and scope:
 
 1. **Object identity:** exact immutable research object, version, provenance and source membership selected.
 2. **Integrity:** every file byte length and SHA-256 checked against authoritative sources; event-chain and audit code examined. Preserve negative predecessors.

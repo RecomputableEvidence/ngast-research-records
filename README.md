@@ -1,10 +1,10 @@
 # NGAST Research Records
 
-**Independent research catalog — initial public-metadata staging release (2026-10-19).**
+**Independent research catalog — metadata staging plus one published documentation-only report (2026-10-19).**
 
 This repository indexes research objects concerning paired LLM encounters, responsive interaction, evidence-sensitive coordination, and historically versus currently warranted reliance. It distinguishes observed behavior, admissible interpretations, unresolved findings and execution status.
 
-**This first commit contains a catalog and bounded study descriptions, not the full original event logs, executable model runners, or a reproducible public research release.** Source archives are retained separately and will be considered for deposit only after individual release gates pass. Metadata SHA-256 digests identify candidate private archives; they are not publicly retrievable here.
+**This repository contains a catalog and bounded study descriptions, not the original event logs or executable model runners. One separately identified documentation-only report is published on Zenodo; its primary experimental evidence remains restricted.** Source archives are retained separately and will be considered for deposit only after individual release gates pass. Metadata SHA-256 digests identify candidate private archives; they are not publicly retrievable here.
 
 ## Study records
 
@@ -13,9 +13,9 @@ This repository indexes research objects concerning paired LLM encounters, respo
 | [Open-choice historical encounter](research/objects/NGAST-OPEN-CHOICE-HISTORICAL-001/) | Nine rounds; preserved inactivity and historical examiner framing | Metadata only; evidence not yet disclosed |
 | [PAIR-OBS 001](research/objects/NGAST-PAIR-OBS-001/) | 13 fresh rounds, rejected actions, reciprocal drafting after authorization | Metadata only; evidence not yet disclosed |
 | [Evidence-sensitive coordination pilot](research/objects/NGAST-EVIDENCE-COORDINATION-PILOT-001/) | Five-arm pilot, one unsupported explicit sandbox use, measurement limitations | Metadata only; evidence not yet disclosed |
-| [Evidence-standing diagnostic](research/objects/NGAST-EVIDENCE-STANDING-DIAGNOSTIC-001/) | Strict-parser failure followed by separately versioned complete run; zero measured format benefit under a ceiling | Metadata only; evidence not yet disclosed |
+| [Evidence-standing diagnostic](research/objects/NGAST-EVIDENCE-STANDING-DIAGNOSTIC-001/) | Strict-parser failure followed by separately versioned complete run; zero measured format benefit under a ceiling | [Zenodo documentation-only report](https://doi.org/10.5281/zenodo.23480962) published; original evidence restricted |
 
-See the machine-readable [research catalog](research/catalog.json), [release gates](docs/RELEASE_GATES.md), [reproducibility boundaries](docs/VERIFICATION.md), and [research-line separation](docs/RELATIONS.md).
+See the machine-readable [research catalog](research/catalog.json), [publication receipt](docs/PUBLIC_RELEASE_RECEIPT_20261019.md), [release gates](docs/RELEASE_GATES.md), [reproducibility boundaries](docs/VERIFICATION.md), and [research-line separation](docs/RELATIONS.md).
 
 ## Intended publication chain
 
@@ -23,7 +23,7 @@ Separate preserved object → object-specific disclosure and rights review → D
 
 ## Authorship and rights
 
-Ryan Feller is the proposed research-record creator based on current candidate metadata; verify final author and contributor assignments before deposit. Model-generated transcripts, code, and third-party material remain **unreleased** pending rights review. No public reuse license has yet been granted or selected for the unreleased evidence. See [rights and disclosure](docs/RIGHTS_AND_DISCLOSURE.md).
+The documentary report lists Ryan Feller as creator and is published under CC BY 4.0 **for that derivative only**. Model-generated transcripts, source runners, and other third-party material remain **unreleased** pending their separate rights review. That documentary license does not grant any public reuse rights for the restricted original evidence. See [rights and disclosure](docs/RIGHTS_AND_DISCLOSURE.md).
 
 ## Verify this repository's metadata
 
@@ -31,7 +31,7 @@ Run `python scripts/verify_catalog.py` (Python 3 standard library). This checks 
 
 ## Status and non-claims
 
-- No Zenodo DOI has been issued or independently checked for these objects in this staging process.
+- One version-specific Zenodo DOI is displayed for the [published documentation-only report](https://doi.org/10.5281/zenodo.23480962). Publication and public accessibility are supported by an owner-supplied unauthenticated browser screenshot. Independent resolver verification and downloaded-file hash comparison remain open.
 - No ORCID Work is confirmed; publication of this repository does not create one.
 - No Fork-core research release or admission is implied.
 - The 100-event historical encounter is **not** a predecessor participant-state record of the 152-event fresh PAIR-OBS lineage.

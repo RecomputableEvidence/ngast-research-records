@@ -2,7 +2,7 @@
 
 **Historical/current support and permission diagnostic: strict-format halt and repaired complete run**
 
-**Standing:** format_repair_successor_completed_with_failed_predecessor · internally checked archival evidence, **not deposited publicly**.
+**Standing:** format_repair_successor_completed_with_failed_predecessor · a **documentation-only derivative** has been published; the original event ledgers and runner are **not deposited publicly**.
 
 ## Examined subject
 
@@ -24,6 +24,8 @@ Assigned synthetic classification task: historical versus current support, permi
 
 Matched bounded fixtures; no causal estimate of presentation benefit or actual unauthorized action.
 
-## Preservation and release standing
+## Publication and evidence boundaries
 
-The source package is **not included in this public staging commit** pending independent disclosure, source, rights and license review. The exact candidate archive digest and frozen event-chain tips are declared in [metadata.json](metadata.json). These metadata statements do not certify that GitHub contains public replayable evidence, that provider identity was cryptographically attested, or that a DOI exists.
+Documentation-only report **v0.3-doc-only**: [Zenodo DOI](https://doi.org/10.5281/zenodo.23480962); [public record](https://zenodo.org/records/23480962). The public browser screenshot displays a published record on 2026-10-19 with no login required. The exact nine-document local upload candidate is SHA-256 `872c39906289bf6dd1d7bd5ada2cf48c56e643680fed83cc8bc923bda7c59020` and MD5 `3941baeee1226f043d59163c6b182131`. Earlier owner screenshot of the upload displayed that MD5. **Postpublication retrieval and byte-for-byte comparison of the actual Zenodo-hosted file remain open.**
+
+The original source archive is **not** distributed and retains its original digest, event-chain tips, execution state and source disclosure limits in [metadata.json](metadata.json). Thus the primary chains are not publicly recomputable from this documentary subset. The DOI identifies the derived documentary report, **not** the unreleased study archive, nor a Fork-core result. ORCID Work association has not been confirmed. See [publication receipt](../../../docs/PUBLIC_RELEASE_RECEIPT_20261019.md).

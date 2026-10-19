@@ -5,13 +5,13 @@
   "research_program": "NGAST (independent research line)",
   "creator_candidate": "Ryan Feller",
   "orcid_candidate": "0009-0000-7863-5792",
-  "publication_status": "public_metadata_staging_only",
+  "publication_status": "published_documentation_only_primary_evidence_restricted",
   "primary_evidence_released": false,
-  "doi": null,
+  "doi": "10.5281/zenodo.23480962",
   "orcid_work_confirmed": false,
   "fork_core_admitted": false,
-  "rights_review": "pending",
-  "license": "not selected",
+  "rights_review": "scope_limited_documentation_distribution_authorized; original_source_rights_not_cleared",
+  "license": "CC-BY-4.0 for published documentation; source and original model outputs not licensed for redistribution",
   "verification_class": "original event chain and copied file hashes locally verified; source/provider authenticity not attested",
   "archived_study_packet": {
     "filename": "NGAST-EVIDENCE-STANDING-DIAGNOSTIC-001.zip",
@@ -72,5 +72,28 @@
       "target": "Fork handoff-state hypothesis",
       "standing": "conceptual relation only; no Fork release admission"
     }
-  ]
+  ],
+  "publication_evidence": "unauthenticated public-record screenshot; independent DOI resolver and deposited ZIP fetch not completed",
+  "documentary_release_version": "0.3-doc-only",
+  "documentary_release": {
+    "object_type": "Publication / Report",
+    "version": "0.3-doc-only",
+    "version_specific_doi": "10.5281/zenodo.23480962",
+    "all_versions_doi": "10.5281/zenodo.23480961",
+    "record_url": "https://zenodo.org/records/23480962",
+    "publication_date_shown": "2026-10-19",
+    "file_name": "NGAST_EVIDENCE_STANDING_ZENODO_UPLOAD_ONLY_v0.3.zip",
+    "file_bytes": 12950,
+    "local_candidate_sha256": "872c39906289bf6dd1d7bd5ada2cf48c56e643680fed83cc8bc923bda7c59020",
+    "local_candidate_md5": "3941baeee1226f043d59163c6b182131",
+    "upload_md5_displayed_in_owner_screenshot_matches_local": true,
+    "post_publication_public_page_visible_without_login_owner_screenshot": true,
+    "direct_retrieval_zenodo_or_doi_from_assistant_environment": "unavailable",
+    "post_publication_download_and_hash_comparison": "not_completed",
+    "license": "CC-BY-4.0",
+    "files_scope": "nine documentation, license, preregistration, aggregate and fingerprint files inside one ZIP; no raw events/model responses/executables",
+    "original_source_archive_published": false,
+    "orcid_work_confirmed": false,
+    "fork_core_admitted": false
+  }
 }

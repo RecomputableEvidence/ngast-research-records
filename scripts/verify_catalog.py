@@ -18,7 +18,7 @@ for rel,sha in listed.items():
     p=ROOT/rel
     if not p.is_file() or hashlib.sha256(p.read_bytes()).hexdigest()!=sha: errors.append('digest mismatch '+rel)
 cat=json.loads((ROOT/'research/catalog.json').read_text())
-if cat.get('catalog_status')!='initial-public-metadata-only': errors.append('wrong catalog status')
+if cat.get('catalog_status')!='one-documentary-release-published-primary-evidence-restricted': errors.append('wrong catalog status')
 ids=[x['object_id'] for x in cat['research_objects']]
 if len(ids)!=4 or len(set(ids))!=4: errors.append('expected 4 distinct records')
 expected_counts={'NGAST-OPEN-CHOICE-HISTORICAL-001': [100], 'NGAST-PAIR-OBS-001':[36,92,152], 'NGAST-EVIDENCE-COORDINATION-PILOT-001':[203], 'NGAST-EVIDENCE-STANDING-DIAGNOSTIC-001':[7,283]}
@@ -31,12 +31,22 @@ for row in cat['research_objects']:
         if not re.fullmatch(r'[0-9a-f]{64}', ent['chain_tip_sha256']): errors.append('bad chain tip '+ident)
     arc=m['archived_study_packet']
     if not re.fullmatch(r'[0-9a-f]{64}', arc['sha256']) or arc['published'] is not False: errors.append('bad private archive status '+ident)
-    if any([m['doi'] is not None,m['orcid_work_confirmed'],m['fork_core_admitted'],m['primary_evidence_released']]): errors.append('wrong release claims '+ident)
-    if m['license']!='not selected' or m['rights_review']!='pending': errors.append('premature rights claim '+ident)
+    if any([m['orcid_work_confirmed'],m['fork_core_admitted'],m['primary_evidence_released']]): errors.append('wrong original-release claims '+ident)
+    if ident=='NGAST-EVIDENCE-STANDING-DIAGNOSTIC-001':
+        d=m.get('documentary_release',{})
+        if m['doi']!='10.5281/zenodo.23480962': errors.append('incorrect report DOI')
+        if m['publication_status']!='published_documentation_only_primary_evidence_restricted': errors.append('wrong diagnostic publication status')
+        if d.get('version')!='0.3-doc-only' or d.get('version_specific_doi')!=m['doi'] or d.get('all_versions_doi')!='10.5281/zenodo.23480961': errors.append('wrong release DOI/version relation')
+        if d.get('file_bytes')!=12950 or d.get('local_candidate_sha256')!='872c39906289bf6dd1d7bd5ada2cf48c56e643680fed83cc8bc923bda7c59020': errors.append('wrong local release candidate digest')
+        if d.get('license')!='CC-BY-4.0' or d.get('post_publication_download_and_hash_comparison')!='not_completed': errors.append('rights or verification boundary overclaimed')
+        if m['archived_study_packet']['published'] or d.get('original_source_archive_published') is not False: errors.append('raw archive improperly marked published')
+    else:
+        if m['doi'] is not None or m['publication_status']!='public_metadata_staging_only': errors.append('premature DOI/release claim '+ident)
+        if m['license']!='not selected' or m['rights_review']!='pending': errors.append('premature rights claim '+ident)
     for k in ('title','study_status','publication_status','doi','orcid_work_confirmed','fork_core_admitted'):
         if row[k]!=m[k]: errors.append('catalog mismatch '+ident+' '+k)
 if errors:
     for e in errors: print('FAIL:',e)
     sys.exit(1)
-print('PASS: '+str(len(paths))+' public file hashes; 4 catalog objects and event-chain metadata; 0 issued DOI/ORCID/Fork claims')
-print('SCOPE: metadata only; original raw-event chains are NOT distributed or verified by this script')
+print('PASS: '+str(len(paths))+' public file hashes; 4 catalog objects and event-chain metadata; exactly one documentary DOI shown, no ORCID Work or Fork admission claims')
+print('SCOPE: one documentary release + metadata; original raw-event chains are NOT distributed or verified by this script')
