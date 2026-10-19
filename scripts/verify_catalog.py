@@ -38,7 +38,11 @@ for row in cat['research_objects']:
         if m['publication_status']!='published_documentation_only_primary_evidence_restricted': errors.append('wrong diagnostic publication status')
         if d.get('version')!='0.3-doc-only' or d.get('version_specific_doi')!=m['doi'] or d.get('all_versions_doi')!='10.5281/zenodo.23480961': errors.append('wrong release DOI/version relation')
         if d.get('file_bytes')!=12950 or d.get('local_candidate_sha256')!='872c39906289bf6dd1d7bd5ada2cf48c56e643680fed83cc8bc923bda7c59020': errors.append('wrong local release candidate digest')
-        if d.get('license')!='CC-BY-4.0' or d.get('post_publication_download_and_hash_comparison')!='not_completed': errors.append('rights or verification boundary overclaimed')
+        if d.get('license')!='CC-BY-4.0' or d.get('post_publication_download_and_hash_comparison')!='complete_owner_supplied_download_exact_byte_match': errors.append('rights or verification boundary overclaimed')
+        if d.get('downloaded_postpublication_zip_sha256')!=d.get('local_candidate_sha256') or d.get('downloaded_postpublication_zip_bytes')!=12950: errors.append('downloaded ZIP identity discrepancy')
+        if d.get('downloaded_postpublication_zip_crc_verified') is not True or d.get('downloaded_postpublication_documentary_manifest_entries_verified')!='8/8': errors.append('downloaded ZIP integrity check absent')
+        if d.get('download_origin_cryptographically_attested') is not False or d.get('independent_zenodo_server_fetch')!='not_completed': errors.append('overstated direct Zenodo retrieval')
+        if m.get('postpublication_file_receipt')!='docs/POSTPUBLICATION_FILE_VERIFICATION_20261019.md': errors.append('postpublication receipt absent')
         o=m.get('orcid_work',{})
         if m['orcid_work_confirmed'] is not True or d.get('orcid_work_confirmed') is not True: errors.append('diagnostic ORCID Work observation missing')
         if o.get('orcid_id')!='0009-0000-7863-5792' or o.get('doi_shown')!=m['doi'] or o.get('public_profile_access_observed_in_owner_screenshot') is not True: errors.append('diagnostic ORCID identity/DOI discrepancy')
@@ -50,12 +54,12 @@ for row in cat['research_objects']:
         if m['license']!='not selected' or m['rights_review']!='pending': errors.append('premature rights claim '+ident)
     for k in ('title','study_status','publication_status','doi','orcid_work_confirmed','fork_core_admitted'):
         if row[k]!=m[k]: errors.append('catalog mismatch '+ident+' '+k)
-if cat.get('catalog_version')!='0.3.0' or 'public-orcid-work-observed' not in cat.get('external_release_status',''): errors.append('wrong catalog/ORCID version')
+if cat.get('catalog_version')!='0.4.0' or 'user-supplied-zenodo-zip-byte-matched' not in cat.get('external_release_status',''): errors.append('wrong catalog/ORCID version')
 if errors:
     for e in errors: print('FAIL:',e)
     sys.exit(1)
 if errors:
     for e in errors: print('FAIL:',e)
     sys.exit(1)
-print('PASS: '+str(len(paths))+' public file hashes; 4 catalog objects and event-chain metadata; one documentary DOI and one bounded ORCID Work observation; no Fork admission claims')
+print('PASS: '+str(len(paths))+' public file hashes; 4 catalog objects; one documentary DOI; one bounded ORCID Work; user-supplied postpublication ZIP byte-match reported, no direct Zenodo retrieval claim')
 print('SCOPE: one documentary release + metadata; original raw-event chains are NOT distributed or verified by this script')

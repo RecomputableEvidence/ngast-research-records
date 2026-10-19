@@ -89,12 +89,18 @@
     "upload_md5_displayed_in_owner_screenshot_matches_local": true,
     "post_publication_public_page_visible_without_login_owner_screenshot": true,
     "direct_retrieval_zenodo_or_doi_from_assistant_environment": "unavailable",
-    "post_publication_download_and_hash_comparison": "not_completed",
+    "post_publication_download_and_hash_comparison": "complete_owner_supplied_download_exact_byte_match",
     "license": "CC-BY-4.0",
     "files_scope": "nine documentation, license, preregistration, aggregate and fingerprint files inside one ZIP; no raw events/model responses/executables",
     "original_source_archive_published": false,
     "orcid_work_confirmed": true,
-    "fork_core_admitted": false
+    "fork_core_admitted": false,
+    "downloaded_postpublication_zip_sha256": "872c39906289bf6dd1d7bd5ada2cf48c56e643680fed83cc8bc923bda7c59020",
+    "downloaded_postpublication_zip_bytes": 12950,
+    "downloaded_postpublication_zip_crc_verified": true,
+    "downloaded_postpublication_documentary_manifest_entries_verified": "8/8",
+    "download_origin_cryptographically_attested": false,
+    "independent_zenodo_server_fetch": "not_completed"
   },
   "orcid_work": {
     "profile_url": "https://orcid.org/0009-0000-7863-5792",
@@ -109,5 +115,6 @@
     "identifier_relationship_self": "not_explicitly_shown_in_screenshot",
     "observed_at_date": "2026-10-19",
     "observation_source": "owner-provided screenshot of ORCID public page (sign-in/register shown; Featured works included diagnostic); no direct assistant ORCID fetch"
-  }
+  },
+  "postpublication_file_receipt": "docs/POSTPUBLICATION_FILE_VERIFICATION_20261019.md"
 }

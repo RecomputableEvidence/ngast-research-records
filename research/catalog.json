@@ -1,10 +1,10 @@
 {
-  "catalog_version": "0.3.0",
+  "catalog_version": "0.4.0",
   "prepared_on": "2026-10-19",
-  "title": "NGAST independent research records — staged catalog",
+  "title": "NGAST independent research records \u2014 staged catalog",
   "creator_candidate": "Ryan Feller",
   "catalog_status": "one-documentary-release-published-primary-evidence-restricted",
-  "external_release_status": "one-published-documentary-zenodo-report-and-public-orcid-work-observed; independent-download-verification-pending",
+  "external_release_status": "one-documentary-report-published-public-orcid-work-observed-user-supplied-zenodo-zip-byte-matched; direct-server-fetch-unverified",
   "scope_note": "Separately identified studies. Fork relevance does not confer Fork-core admission or verified source authority.",
   "research_objects": [
     {
@@ -19,7 +19,7 @@
     },
     {
       "object_id": "NGAST-PAIR-OBS-001",
-      "title": "Fresh open-choice paired observation and mutually authorized text construction, rounds 1–13",
+      "title": "Fresh open-choice paired observation and mutually authorized text construction, rounds 1\u201313",
       "study_status": "completed",
       "publication_status": "public_metadata_staging_only",
       "primary_evidence_released": false,
@@ -49,7 +49,8 @@
       "documentary_release_version": "0.3-doc-only",
       "publication_evidence": "unauthenticated public-record screenshot; no independent DOI resolver or deposited ZIP fetch",
       "orcid_work_url": "https://orcid.org/0009-0000-7863-5792",
-      "orcid_work_evidence": "owner-provided screenshot of public ORCID record viewed without sign-in on 2026-10-19; direct ORCID retrieval by assistant unavailable"
+      "orcid_work_evidence": "owner-provided screenshot of public ORCID record viewed without sign-in on 2026-10-19; direct ORCID retrieval by assistant unavailable",
+      "postpublication_download_comparison": "owner-supplied public ZIP exactly matches approved derivative; direct server retrieval unverified"
     }
   ]
 }

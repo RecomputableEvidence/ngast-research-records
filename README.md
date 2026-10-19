@@ -15,7 +15,7 @@ This repository indexes research objects concerning paired LLM encounters, respo
 | [Evidence-sensitive coordination pilot](research/objects/NGAST-EVIDENCE-COORDINATION-PILOT-001/) | Five-arm pilot, one unsupported explicit sandbox use, measurement limitations | Metadata only; evidence not yet disclosed |
 | [Evidence-standing diagnostic](research/objects/NGAST-EVIDENCE-STANDING-DIAGNOSTIC-001/) | Strict-parser failure followed by separately versioned complete run; zero measured format benefit under a ceiling | [Zenodo documentation-only report](https://doi.org/10.5281/zenodo.23480962) published; original evidence restricted |
 
-See the machine-readable [research catalog](research/catalog.json), [publication receipt](docs/PUBLIC_RELEASE_RECEIPT_20261019.md), [release gates](docs/RELEASE_GATES.md), [reproducibility boundaries](docs/VERIFICATION.md), and [research-line separation](docs/RELATIONS.md).
+See the machine-readable [research catalog](research/catalog.json), [publication receipt](docs/PUBLIC_RELEASE_RECEIPT_20261019.md), [postpublication file verification](docs/POSTPUBLICATION_FILE_VERIFICATION_20261019.md), [release gates](docs/RELEASE_GATES.md), [reproducibility boundaries](docs/VERIFICATION.md), and [research-line separation](docs/RELATIONS.md).
 
 ## Intended publication chain
 
@@ -31,7 +31,7 @@ Run `python scripts/verify_catalog.py` (Python 3 standard library). This checks 
 
 ## Status and non-claims
 
-- One version-specific Zenodo DOI is displayed for the [published documentation-only report](https://doi.org/10.5281/zenodo.23480962). Publication and public accessibility are supported by an owner-supplied unauthenticated browser screenshot. Independent resolver verification and downloaded-file hash comparison remain open.
+- One version-specific Zenodo DOI is displayed for the [published documentation-only report](https://doi.org/10.5281/zenodo.23480962). Publication and public accessibility are supported by an owner-supplied unauthenticated browser screenshot. The owner-supplied postpublication ZIP has now been compared byte-for-byte against the approved derivative (PASS); direct assistant-side Zenodo server retrieval and DOI resolver verification remain open.
 - One ORCID Work is visibly listed on the creator’s public profile for the documentation-only diagnostic DOI. This is supported by an owner-provided unsigned-in-browser screenshot; independent ORCID API retrieval is not established. The three other NGAST studies have no ORCID Works confirmed here.
 - No Fork-core research release or admission is implied.
 - The 100-event historical encounter is **not** a predecessor participant-state record of the 152-event fresh PAIR-OBS lineage.
