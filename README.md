@@ -6,6 +6,10 @@ This repository indexes research objects concerning paired LLM encounters, respo
 
 **This repository contains a catalog and bounded study descriptions, not the original event logs or executable model runners. One separately identified documentation-only report is published on Zenodo; its primary experimental evidence remains restricted.** Source archives are retained separately and will be considered for deposit only after individual release gates pass. Metadata SHA-256 digests identify candidate private archives; they are not publicly retrievable here.
 
+## Research page under review (not yet admitted to the catalog)
+
+- [OAS-002 — When evidence interpretation and decision composition diverge](research/objects/NGAST-OAS-002/) — documentation-only review candidate describing 72 dependent synthetic presentations, 48/72 combined versus 67/72 separated full-vector results, adverse cases and explicit non-claims. [Machine-readable aggregate summary](research/objects/NGAST-OAS-002/results-summary.json). **Original source archives are not published; no DOI, ORCID Work, or Fork-core standing is implied.** This candidate is excluded from the four-object catalog until a separate release decision.
+
 ## Study records
 
 | Study | What the record establishes | Public evidence standing |
