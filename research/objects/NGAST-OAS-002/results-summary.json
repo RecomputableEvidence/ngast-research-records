@@ -1,0 +1,67 @@
+{
+  "schema_version": "0.1",
+  "record_id": "NGAST-OAS-002",
+  "record_version": "v0.1-review-candidate",
+  "as_of": "2026-10-24",
+  "source_examination_date": "2026-10-23",
+  "publication_status": "documentation_review_candidate",
+  "source_archives_public": false,
+  "independent_origin_attested": false,
+  "model_weight_attested": false,
+  "doi": null,
+  "orcid_work_registered": false,
+  "fork_core_admitted": false,
+  "design": {
+    "synthetic_base_fixtures": 9,
+    "presentations_per_fixture": 8,
+    "presentations": 72,
+    "execution_epochs": 10,
+    "stage_response_records": 216
+  },
+  "archive_source_audit": {
+    "zip_crc_passed": 10,
+    "zip_crc_total": 10,
+    "manifest_members_matched": 894,
+    "manifest_members_total": 894,
+    "raw_responses_reconstructed": 216,
+    "raw_responses_total": 216
+  },
+  "comparisons": {
+    "combined": {
+      "full_vector_correct": 48,
+      "components_correct": 63,
+      "joint_label_correct": 50,
+      "joint_consistent_with_components": 57
+    },
+    "separated": {
+      "full_vector_correct": 67,
+      "components_correct_at_E": 67,
+      "joint_label_correct_at_J": 70,
+      "joint_consistent_with_E": 70
+    },
+    "deterministic_recomposition": {
+      "combined_components_full_vector_correct": 63,
+      "separated_components_full_vector_correct": 67
+    },
+    "paired": {
+      "both_correct": 48,
+      "separated_only_correct": 19,
+      "combined_only_correct": 0,
+      "neither_correct": 5
+    },
+    "combined_correct_components_wrong_joint": 15,
+    "unresolved_subset": {
+      "cases": 24,
+      "combined_full_correct": 7,
+      "separated_full_correct": 20
+    }
+  },
+  "claim_ceiling": [
+    "synthetic_frozen_design_descriptive_only",
+    "no_causal_isolation",
+    "no_external_model_provenance",
+    "no_real_world_authorization_or_action",
+    "no_Lens_method_effect_qualification",
+    "source_archive_and_scripts_not_released"
+  ]
+}
